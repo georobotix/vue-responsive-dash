@@ -1,6 +1,8 @@
 {
   "name": "vue-responsive-dash",
-  "version": "0.5.0",
+  "version": "0.6.0",
+  "private": true,
+  "description": null,
   "keywords": [
     "vuejs",
     "vue",
@@ -45,6 +47,7 @@
     "@vue/cli-plugin-typescript": "^4.5.4",
     "@vue/cli-plugin-unit-jest": "^4.5.4",
     "@vue/cli-service": "^4.5.4",
+    "@vue/compiler-sfc": "^3.2.44",
     "@vue/eslint-config-prettier": "^6.0.0",
     "@vue/eslint-config-typescript": "^4.0.0",
     "@vue/test-utils": "1.0.3",
@@ -57,15 +60,12 @@
     "regenerator-runtime": "^0.13.7",
     "rimraf": "^3.0.2",
     "typescript": "^3.9.7",
-    "vue": "^2.6.11",
-    "vue-template-compiler": "^2.6.11",
     "vuepress": "^1.5.3",
-    "vuepress-plugin-typescript": "^0.3.0"
-  },
-  "peerDependencies": {
-    "vue": "^2.6.11"
+    "vuepress-plugin-typescript": "^0.3.0",
+    "vue-loader": "^17.0.0"
   },
   "dependencies": {
+    "vue": "^3.2.36",
     "@interactjs/actions": "^1.9.20",
     "@interactjs/auto-start": "^1.9.20",
     "@interactjs/interact": "^1.9.20",
