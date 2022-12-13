@@ -63,7 +63,7 @@ export default {
         {
           breakpoint: "xl",
           numberOfCols: 12,
-          compact: true,
+          compact: false,
           items: [
             {
               id: "1",
@@ -82,9 +82,9 @@ export default {
         },
         {
           breakpoint: "lg",
-          compact: true,
           breakpointWidth: 1200,
           numberOfCols: 10,
+          compact: false,
           items: [
             {
               id: "1",
@@ -104,8 +104,8 @@ export default {
         {
           breakpoint: "md",
           breakpointWidth: 996,
-          compact: true,
           numberOfCols: 8,
+          compact: false,
           items: [
             {
               id: "1",
@@ -126,7 +126,7 @@ export default {
           breakpoint: "sm",
           breakpointWidth: 768,
           numberOfCols: 4,
-          compact: true,
+          compact: false,
           items: [
             {
               id: "1",
@@ -145,7 +145,7 @@ export default {
           breakpoint: "xs",
           breakpointWidth: 480,
           numberOfCols: 2,
-          compact: true,
+          compact: false,
           items: [
             {
               id: "1",
@@ -161,8 +161,8 @@ export default {
         {
           breakpoint: "xxs",
           breakpointWidth: 0,
-          compact: true,
           numberOfCols: 1,
+          compact: false,
           items: [
             {
               id: "1",

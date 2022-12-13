@@ -142,6 +142,7 @@ export default {
       return "0px";
     },
     width() {
+      console.log(this.l.width)
       if (this.l) {
         return this.l.width + "px";
       }

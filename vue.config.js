@@ -3,4 +3,7 @@ module.exports = {
     devtool: "source-map",
   },
   css: { extract: false },
+  devServer: {
+    hot: true
+  }
 };

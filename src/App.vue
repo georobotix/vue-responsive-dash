@@ -92,7 +92,7 @@ export default {
   },
   data() {
     return {
-      compact: true,
+      compact: false,
       draggable: true,
       resizable: true,
       allowFrom: null,

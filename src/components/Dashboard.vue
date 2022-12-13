@@ -1,12 +1,12 @@
 <template>
-  <div :id="id" :ref="id" v-if="d" v-rlocal @resize="onResize">
+  <div :id="id" :ref="id" v-if="d">
     <slot></slot>
   </div>
 </template>
 
 <script>
 import { Dashboard } from "./Dashboard.model";
-import { resize } from "vue-element-resize-detector";
+import elementResizeDetectorMaker from "element-resize-detector";
 
 //Monitor the Props and update the item with the changed value
 const watchProp = (key, deep) => ({
@@ -26,12 +26,23 @@ export default {
     id: { type: [Number, String], required: true },
     autoHeight: { type: Boolean, default: Dashboard.defaults.autoHeight },
   },
-  directives: {
-    rlocal: resize,
+  mounted() {
+    this.erd.listenTo({}, document.getElementById(this.id), element => {
+      let width = element.offsetWidth;
+      let height = element.offsetHeight;
+      this.onResize({ detail: { width, height } });
+    });
+  },
+  beforeUnmount() {
+    this.erd.uninstall(document.getElementById(this.id));
   },
   data() {
+    const elementResizeDetectorMaker = require("element-resize-detector");
     return {
       d: null,
+      erd: elementResizeDetectorMaker({
+          strategy: "scroll" //<- For ultra performance.
+      })
     };
   },
   provide() {
