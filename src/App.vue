@@ -339,4 +339,5 @@ export default {
   background-color: rgb(173, 207, 77);
   opacity: 0.2;
 }
+
 </style>
