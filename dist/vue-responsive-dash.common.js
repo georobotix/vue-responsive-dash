@@ -5225,7 +5225,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, ".item[data-v-bb9f6232]{-webkit-box-siz
 
 /***/ }),
 
-/***/ 210:
+/***/ 8866:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5239,7 +5239,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".placeholder[data-v-b352132e]{height:100%;width:100%;background-color:red;opacity:.2}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".placeholder[data-v-553a18ce]{height:100%;width:100%;background-color:red;opacity:.2}", ""]);
 // Exports
 /* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
 
@@ -7610,19 +7610,19 @@ var update = add("644ca67b", content, true, {"sourceMap":false,"shadowMode":fals
 
 /***/ }),
 
-/***/ 180:
+/***/ 4766:
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(210);
+var content = __webpack_require__(8866);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.id, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
 var add = (__webpack_require__(4402)/* ["default"] */ .Z)
-var update = add("1750baa4", content, true, {"sourceMap":false,"shadowMode":false});
+var update = add("30af9c8c", content, true, {"sourceMap":false,"shadowMode":false});
 
 /***/ }),
 
@@ -16002,41 +16002,41 @@ var exportHelper = __webpack_require__(3744);
 const __exports__ = /*#__PURE__*/(0,exportHelper/* default */.Z)(DashItemvue_type_script_lang_js, [['render',render],['__scopeId',"data-v-bb9f6232"]])
 
 /* harmony default export */ var components_DashItem = (__exports__);
-;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[4]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/DashLayout.vue?vue&type=template&id=b352132e&scoped=true
+;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[4]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/DashLayout.vue?vue&type=template&id=553a18ce&scoped=true
 
 
-var DashLayoutvue_type_template_id_b352132e_scoped_true_withScopeId = function _withScopeId(n) {
-  return (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.pushScopeId)("data-v-b352132e"), n = n(), (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.popScopeId)(), n;
+var DashLayoutvue_type_template_id_553a18ce_scoped_true_withScopeId = function _withScopeId(n) {
+  return (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.pushScopeId)("data-v-553a18ce"), n = n(), (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.popScopeId)(), n;
 };
-var DashLayoutvue_type_template_id_b352132e_scoped_true_hoisted_1 = {
+var DashLayoutvue_type_template_id_553a18ce_scoped_true_hoisted_1 = {
   key: 0
 };
-var DashLayoutvue_type_template_id_b352132e_scoped_true_hoisted_2 = /*#__PURE__*/DashLayoutvue_type_template_id_b352132e_scoped_true_withScopeId(function () {
+var DashLayoutvue_type_template_id_553a18ce_scoped_true_hoisted_2 = /*#__PURE__*/DashLayoutvue_type_template_id_553a18ce_scoped_true_withScopeId(function () {
   return /*#__PURE__*/(0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createElementVNode)("div", {
     class: "placeholder"
   }, null, -1);
 });
-var DashLayoutvue_type_template_id_b352132e_scoped_true_hoisted_3 = {
+var DashLayoutvue_type_template_id_553a18ce_scoped_true_hoisted_3 = {
   key: 1
 };
-var DashLayoutvue_type_template_id_b352132e_scoped_true_hoisted_4 = /*#__PURE__*/DashLayoutvue_type_template_id_b352132e_scoped_true_withScopeId(function () {
+var DashLayoutvue_type_template_id_553a18ce_scoped_true_hoisted_4 = /*#__PURE__*/DashLayoutvue_type_template_id_553a18ce_scoped_true_withScopeId(function () {
   return /*#__PURE__*/(0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createElementVNode)("br", null, null, -1);
 });
-var DashLayoutvue_type_template_id_b352132e_scoped_true_hoisted_5 = /*#__PURE__*/DashLayoutvue_type_template_id_b352132e_scoped_true_withScopeId(function () {
+var DashLayoutvue_type_template_id_553a18ce_scoped_true_hoisted_5 = /*#__PURE__*/DashLayoutvue_type_template_id_553a18ce_scoped_true_withScopeId(function () {
   return /*#__PURE__*/(0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createElementVNode)("br", null, null, -1);
 });
-var DashLayoutvue_type_template_id_b352132e_scoped_true_hoisted_6 = /*#__PURE__*/DashLayoutvue_type_template_id_b352132e_scoped_true_withScopeId(function () {
+var DashLayoutvue_type_template_id_553a18ce_scoped_true_hoisted_6 = /*#__PURE__*/DashLayoutvue_type_template_id_553a18ce_scoped_true_withScopeId(function () {
   return /*#__PURE__*/(0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createElementVNode)("br", null, null, -1);
 });
-var DashLayoutvue_type_template_id_b352132e_scoped_true_hoisted_7 = /*#__PURE__*/DashLayoutvue_type_template_id_b352132e_scoped_true_withScopeId(function () {
+var DashLayoutvue_type_template_id_553a18ce_scoped_true_hoisted_7 = /*#__PURE__*/DashLayoutvue_type_template_id_553a18ce_scoped_true_withScopeId(function () {
   return /*#__PURE__*/(0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createElementVNode)("br", null, null, -1);
 });
-var DashLayoutvue_type_template_id_b352132e_scoped_true_hoisted_8 = /*#__PURE__*/DashLayoutvue_type_template_id_b352132e_scoped_true_withScopeId(function () {
+var DashLayoutvue_type_template_id_553a18ce_scoped_true_hoisted_8 = /*#__PURE__*/DashLayoutvue_type_template_id_553a18ce_scoped_true_withScopeId(function () {
   return /*#__PURE__*/(0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createElementVNode)("br", null, null, -1);
 });
-function DashLayoutvue_type_template_id_b352132e_scoped_true_render(_ctx, _cache, $props, $setup, $data, $options) {
+function DashLayoutvue_type_template_id_553a18ce_scoped_true_render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_DashItem = (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.resolveComponent)("DashItem");
-  return $options.currentBreakpoint === $props.breakpoint ? ((0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.openBlock)(), (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createElementBlock)("div", DashLayoutvue_type_template_id_b352132e_scoped_true_hoisted_1, [$data.l ? ((0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.openBlock)(), (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createElementBlock)("div", {
+  return $options.currentBreakpoint === $props.breakpoint ? ((0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.openBlock)(), (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createElementBlock)("div", DashLayoutvue_type_template_id_553a18ce_scoped_true_hoisted_1, [$data.l ? ((0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.openBlock)(), (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createElementBlock)("div", {
     key: 0,
     style: (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.normalizeStyle)({
       position: 'relative',
@@ -16053,13 +16053,13 @@ function DashLayoutvue_type_template_id_b352132e_scoped_true_render(_ctx, _cache
   }, {
     default: (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.withCtx)(function () {
       return [(0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.renderSlot)(_ctx.$slots, "placeholder", {}, function () {
-        return [DashLayoutvue_type_template_id_b352132e_scoped_true_hoisted_2];
+        return [DashLayoutvue_type_template_id_553a18ce_scoped_true_hoisted_2];
       }, true)];
     }),
     _: 3
-  }, 8, ["id", "y", "height", "maxWidth"]), [[external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.vShow, $options.dragging || $options.resizing]])], 4)) : (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createCommentVNode)("", true), $props.debug ? ((0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.openBlock)(), (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createElementBlock)("div", DashLayoutvue_type_template_id_b352132e_scoped_true_hoisted_3, [(0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createTextVNode)(" Layout Breakpoint: " + (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.toDisplayString)($props.breakpoint) + " ", 1), DashLayoutvue_type_template_id_b352132e_scoped_true_hoisted_4, (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createTextVNode)(" Layout Number of Cols: " + (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.toDisplayString)($props.numberOfCols) + " ", 1), DashLayoutvue_type_template_id_b352132e_scoped_true_hoisted_5, (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createTextVNode)(" placeholder: " + (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.toDisplayString)(JSON.stringify($options.placeholder)) + " ", 1), DashLayoutvue_type_template_id_b352132e_scoped_true_hoisted_6, (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createTextVNode)(" Items: " + (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.toDisplayString)(JSON.stringify($options.itemsFromLayout)) + " ", 1), DashLayoutvue_type_template_id_b352132e_scoped_true_hoisted_7, (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createTextVNode)(" Height: " + (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.toDisplayString)($options.height) + " ", 1), DashLayoutvue_type_template_id_b352132e_scoped_true_hoisted_8, (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createTextVNode)(" Attrs: " + (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.toDisplayString)(_ctx.$attrs), 1)])) : (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createCommentVNode)("", true)])) : (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createCommentVNode)("", true);
+  }, 8, ["id", "y", "height", "maxWidth"]), [[external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.vShow, $options.dragging || $options.resizing]])], 4)) : (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createCommentVNode)("", true), $props.debug ? ((0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.openBlock)(), (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createElementBlock)("div", DashLayoutvue_type_template_id_553a18ce_scoped_true_hoisted_3, [(0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createTextVNode)(" Layout Breakpoint: " + (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.toDisplayString)($props.breakpoint) + " ", 1), DashLayoutvue_type_template_id_553a18ce_scoped_true_hoisted_4, (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createTextVNode)(" Layout Number of Cols: " + (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.toDisplayString)($props.numberOfCols) + " ", 1), DashLayoutvue_type_template_id_553a18ce_scoped_true_hoisted_5, (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createTextVNode)(" placeholder: " + (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.toDisplayString)(JSON.stringify($options.placeholder)) + " ", 1), DashLayoutvue_type_template_id_553a18ce_scoped_true_hoisted_6, (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createTextVNode)(" Items: " + (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.toDisplayString)(JSON.stringify($options.itemsFromLayout)) + " ", 1), DashLayoutvue_type_template_id_553a18ce_scoped_true_hoisted_7, (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createTextVNode)(" Height: " + (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.toDisplayString)($options.height) + " ", 1), DashLayoutvue_type_template_id_553a18ce_scoped_true_hoisted_8, (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createTextVNode)(" Attrs: " + (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.toDisplayString)(_ctx.$attrs), 1)])) : (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createCommentVNode)("", true)])) : (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createCommentVNode)("", true);
 }
-;// CONCATENATED MODULE: ./src/components/DashLayout.vue?vue&type=template&id=b352132e&scoped=true
+;// CONCATENATED MODULE: ./src/components/DashLayout.vue?vue&type=template&id=553a18ce&scoped=true
 
 ;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/DashLayout.vue?vue&type=script&lang=js
 
@@ -16207,7 +16207,6 @@ var DashLayoutvue_type_script_lang_js_watchProp = function watchProp(key, deep) 
       return "0px";
     },
     width: function width() {
-      console.log(this.l.width);
       if (this.l) {
         return this.l.width + "px";
       }
@@ -16256,9 +16255,9 @@ var DashLayoutvue_type_script_lang_js_watchProp = function watchProp(key, deep) 
 });
 ;// CONCATENATED MODULE: ./src/components/DashLayout.vue?vue&type=script&lang=js
  
-// EXTERNAL MODULE: ./node_modules/vue-style-loader/index.js??clonedRuleSet-12.use[0]!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/DashLayout.vue?vue&type=style&index=0&id=b352132e&scoped=true&lang=css
-var DashLayoutvue_type_style_index_0_id_b352132e_scoped_true_lang_css = __webpack_require__(180);
-;// CONCATENATED MODULE: ./src/components/DashLayout.vue?vue&type=style&index=0&id=b352132e&scoped=true&lang=css
+// EXTERNAL MODULE: ./node_modules/vue-style-loader/index.js??clonedRuleSet-12.use[0]!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[2]!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12.use[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/DashLayout.vue?vue&type=style&index=0&id=553a18ce&scoped=true&lang=css
+var DashLayoutvue_type_style_index_0_id_553a18ce_scoped_true_lang_css = __webpack_require__(4766);
+;// CONCATENATED MODULE: ./src/components/DashLayout.vue?vue&type=style&index=0&id=553a18ce&scoped=true&lang=css
 
 ;// CONCATENATED MODULE: ./src/components/DashLayout.vue
 
@@ -16268,7 +16267,7 @@ var DashLayoutvue_type_style_index_0_id_b352132e_scoped_true_lang_css = __webpac
 ;
 
 
-const DashLayout_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(DashLayoutvue_type_script_lang_js, [['render',DashLayoutvue_type_template_id_b352132e_scoped_true_render],['__scopeId',"data-v-b352132e"]])
+const DashLayout_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(DashLayoutvue_type_script_lang_js, [['render',DashLayoutvue_type_template_id_553a18ce_scoped_true_render],['__scopeId',"data-v-553a18ce"]])
 
 /* harmony default export */ var DashLayout = (DashLayout_exports_);
 ;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[4]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/Dashboard.vue?vue&type=template&id=13a7f84d
