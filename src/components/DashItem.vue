@@ -5,8 +5,6 @@
     class="item"
     :style="cssStyle"
     :class="classObj"
-    @mouseover="hover = true"
-    @mouseleave="hover = false"
   >
     <!-- Resize Top Div -->
     <div
@@ -178,6 +176,7 @@ const watchProp = (key, deep) => ({
 
 //Props to change via interaction and need to be emitted for prop.sync usage
 const EMIT_PROPS = ["x", "y", "width", "height"];
+
 //Monitor the item and emit an update to allow .sync usage
 const watchEmitProp = (key, deep) => ({
   handler(newValue) {
@@ -486,7 +485,7 @@ export default {
       );
     }
   },
-  beforeDestroy() {
+  beforeUnmount() {
     if (this.interactInstance) {
       this.interactInstance.unset();
     }

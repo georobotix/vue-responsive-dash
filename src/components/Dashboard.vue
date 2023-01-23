@@ -37,7 +37,6 @@ export default {
     this.erd.uninstall(document.getElementById(this.id));
   },
   data() {
-    const elementResizeDetectorMaker = require("element-resize-detector");
     return {
       d: null,
       erd: elementResizeDetectorMaker({

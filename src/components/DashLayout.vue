@@ -180,7 +180,7 @@ export default {
       );
     }
   },
-  beforeDestroy() {
+  beforeUnmount() {
     if (this.dashboard) {
       this.dashboard.removeLayoutInstance(this.l);
     }
